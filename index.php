@@ -7,6 +7,6 @@
 		
 		<h1>Thank you Anwar Bhai</h1>
 		
-		<p>Everything just working fine ... </p>
+		<p>Everything just working fine ...</p>
 	</body>
 </html>
