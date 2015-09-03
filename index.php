@@ -1,87 +1,130 @@
-<!-- <html>
-	<head>
-		
-		
-	</head>
-		<title>Home Page</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+<?php
+	include_once 'includes/header.php'; 
 	
-	<body>
-		
-		<h1>Thank you for visiting Four Oaks Tandoori's website</h1>
-		
-		<p>This website is in under construction, we will let you know when it's become a live. For that please subscribe below.</p>
-		
-		<h2>Thank you</h2>
-		
-		
-		
-		
-		<form class="text" action="MAILTO:zia.ahmed@me.com" method="post" enctype="text/plain">
-			
-			<input class="text" type="text" placeholder="Your full name"></input>
-			<br/><br/>
-			<input class="text" type="text" placeholder="Your email address"></input>
-			<br/><br/>
-			
-			<input type="submit" value="Send">
-			<!-- <button class="text, right" type="submit">Subscribe</button>
-		</form>
-	</body>
-</html>
+	include_once 'slider.php';
+?>
+ 
 
 
--->
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 top10">
+	<div class="col-md-8 col-sm-6 col-xs-12 text_justity">
+		
+		<div class="col-md-7 col-sm-12 top10 col-xs-12"><img class="welcome_image" src="images/chef.jpeg"></div>
+
+		<h4 class="top10">Chef : Musnoon Miah</h4>
+		
+		Welcome to <a href="#">Four Oaks Tandoori</a>, finest indian cuisine text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+		Genius or so vanity cannot. Large do tried going about water defer by. Silent son man she wished 
+		mother. <br/> 
+	
+		Travelling alteration impression six all uncommonly. Chamber hearing inhabit joy highest private ask 
+		him our believe.  
+		<br/><br/>
+	   
+	</div>
+	
+	<div class="col-md-4  col-sm-6 col-xs-12 opening_time pull-right">
+		<h4 class="time_title">Opening Time</h4>
+		<h4 class="text-right">Monday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Tuesday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Wednesday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Thursday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Friday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Saturday : 05:00pm to 10:30pm</h4>
+		<h4 class="text-right">Sunday : 05:00pm to 10:30pm</h4>
+	</div>
+</div>
+
+
+<div class="container col-md-11 col-md-offset-1 col-sm-12 bottom_space">
+	<div class="col-md-12 col-xs-10 col-xs-offset-0 ">
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/Mains-Salad-Tuna-with-Stir-Fry-thumb.jpeg">
+			Mains Salad Tuna with Stir Fry swelcome text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/rice-fire-cracker-chicken.jpeg">
+			Rice Fire Cracker Chicken swelcome text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/Chicken-Pad-Thai.jpeg">
+			Chicken Pad Thai swelcome text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/Girlled-meat.jpeg">
+			Grilled Beef Kebab swelcome text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/beef-steak.jpeg">
+			Grilled Beef Steak swelcome text hereIs branched in my up strictly remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+		<div class="col-md-3 col-sm-5 col-xs-12 col-xs-offset-0 top10">
+			<img class="chef_img" src="images/Best-pizza.jpeg">
+			Bombay Delight House Special Pizza swelcome text hereIs branched in my up remember. Songs but chief has ham widow downs. 
+			Genius or so vanity cannot. Large
+		</div>
+	</div>
+</div>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+
+
+		<div class="container col-md-4 col-sm-6 col-md-offset-1 social_network top10">
+			
+			<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/video.php?v=843028215736834&amp;set=vb.300192306687097&amp;type=1"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/video.php?v=843028215736834&amp;set=vb.300192306687097&amp;type=1"><a href="https://www.facebook.com/video.php?v=843028215736834&amp;set=vb.300192306687097&amp;type=1">Hahahaha</a><p>How A Baby Is Born.. From a Kids Point Of View</p>Posted by <a href="https://www.facebook.com/video.php?v=843028215736834&amp;set=vb.300192306687097&amp;type=1">बुटवल अनलाइन</a> on Saturday, 20 September 2014</blockquote></div>
+			</div>
+			
+			<div id="fb-root" class="col-md-4 col-sm-6 "></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/zia.ahmed.5076/posts/10203190459356468" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/zia.ahmed.5076/posts/10203190459356468"><p>lets share this post too</p>Posted by <a href="https://www.facebook.com/zia.ahmed.5076">Zia Ahmed</a> on <a href="https://www.facebook.com/zia.ahmed.5076/posts/10203190459356468">Friday, 3 April 2015</a></blockquote></div></div>
+			
+			
+		</div>
+		
+		
+		<div class="col-md-1 col-sm-6 top10 social_network"></div>
+		
+		
+		<div class="col-md-4 col-sm-10 col-xs-12  top10 social_network">
+			<a class="twitter-timeline" href="https://twitter.com/Zia150286" data-widget-id="584012717402562563">Tweets by @Zia150286
+			</a> 
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			</script>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
 
 
 <?php
-
-if($_POST["submit"]) {
-    $recipient="zmdanwar_1987@yahoo.com";
-    $subject="Online Subscriber";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-   // $message=$_POST["message"];
-
-    $mailBody="Name: $sender\nEmail: $senderEmail\n";
-
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
-
-?><!DOCTYPE html>
-
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Contact form to email</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
-<body>
-
-    <?=$thankYou ?>
 	
-	<h1>Thank you for visiting Four Oaks Tandoori's website</h1>
-		
-		<p>This website is in under construction, we will let you know when it's become a live. For that please subscribe below.</p>
-		
-		<h2>Thank you</h2>
-
-    <form method="post" class="text" action="index.php">
-        <label class="text">Name:</label>
-        <input class="text" name="sender">
-<br/><br/>
-        <label class="text">Email:</label>
-        <input class="text" name="senderEmail">
-<!--
-        <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
---><br/><br/>
-        <input class="text, right" type="submit" name="submit">
-    </form>
-
-</body>
-
-</html>
+	include_once 'includes/footer.php';
+?>
