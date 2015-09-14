@@ -1,51 +1,30 @@
 <?php
 	
 	include_once 'includes/header.php';
-	include_once 'includes/db.php';
-	include_once 'classes/Category.class.php';
+	//include_once 'includes/db.php';
+	//include_once 'classes/Category.class.php';
 ?>
 
 	<div class="container col-md-12 col-sm-12">
-		<div class="col-md-2 col-sm-4 col-md-offset-1">
-			<h3 class="text-center"><u>Categories</u></h3>
-			
-			<?php 
-				$categories = $conn->query("SELECT* FROM Category ORDER BY ID");
-				
-				if($categories->num_rows >0){
-					while($category =$categories->fetch_assoc()){
-						$name = "category".$category["ID"];
-						echo "<a href='#".$name."'><h5 class='col-md-10 btn btn-info mar_top'>".$category["Name"]."</h5></a>"."<br/>";
-					}
-				}else{
-					echo "No categories found  ";
-				}
-			?>
-			
-		</div>
+		
 
-		<div class="container col-md-6">
+		<div class="container col-md-12">
 			
-			<?php
-				$categories = $conn->query("SELECT* FROM Category ORDER BY ID");
-				while($category= $categories->fetch_object("Category")){
-
-					$category->listItems();
-				}
-				
+				<p class="col-md-10 col-md-offset-1 text-center">It appears you don't have a PDF plugin for this browser.
+					No biggie... you can <a href="images/menu.pdf">click here to
+					download the PDF file.</a>
+				</p>
 			
-			?>
+			<object class="col-md-10 col-md-offset-1 ma_bottom" data="images/menu.pdf" type="application/pdf" height="1580px" >
+ 
+  
+			</object>
+			
+			
 
 		</div>
 	
-		<div class="container col-md-3 text-center">
-			<h3><u>Shopping Chart</u></h3>
-			<div class="text-left" id = "items">
-			</div>
-			<a href="sign_in.php"><p class="btn btn-primary col-md-10 col-md-offset-1 col-sm-12 col-xs-12">Continue</p></a>
-			
-		</div>
-</div>
+	</div>
 
 
 

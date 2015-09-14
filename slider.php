@@ -16,56 +16,56 @@
 		    <div class="item active">
 		      <img src="images/Vegetables-Appealing-Foods-and-Salads.jpg" alt="Vegetables Appealing Foods and Salads">
 		      <div class="carousel-caption">
-		        <h4>Appealing</h4>
-		        <p>Vegetables Appealing Foods and Salads</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		    
 		    <div class="item">
 		      <img src="images/Red-Philippines-Best-Restaurants.jpg" alt="Red Philippines Best Restaurants">
 		      <div class="carousel-caption">
-		        <h4>Philippines</h4>
-		        <p>Red Philippines Best in Restaurants</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		    
 		    <div class="item">
 		      <img src="images/Intermittent_Fasting_Diet_Food.jpg" alt="Intermittent Fasting Diet Food">
 		      <div class="carousel-caption">
-		        <h3>Intermittent</h3>
-		        <p>Intermittent Fasting Diet Food</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		    
 		    <div class="item">
 		      <img src="images/teppanyaki.jpg" alt="Teppanyaki">
 		      <div class="carousel-caption">
-		        <h3>Teppanyaki</h3>
-		        <p>Teppanyaki Best Sea Food in Restaurant</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		
 		    <div class="item">
 		      <img src="images/good-food1.jpg" alt="healthy good food">
 		      <div class="carousel-caption">
-		        <h3>Healthy Food</h3>
-		        <p>All Healthy with us in Restaurant</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		
 		    <div class="item">
 		      <img src="images/cibiebevande35.jpg" alt="Chicken Cibiebevande">
 		      <div class="carousel-caption">
-		        <h3>Cibiebevande</h3>
-		        <p>Chicken Cibiebevande Best in Restaurant</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		
 		   <div class="item">
 		      <img src="images/maxresdefault.jpg" alt="Max Resdefault">
 		      <div class="carousel-caption">
-		        <h3>Resdefault</h3>
-		        <p>Best Pizza in Restaurant</p>
+		        <h3>Appealing</h3>
+		        <span>Vegetables Appealing Foods and Salads</span>
 		      </div>
 		    </div>
 		    

@@ -221,18 +221,51 @@ bottom_margin{
 }
 
 .tel{
-		font-family: cursive;
-		font-size: 3em;
-	}
+	font-family: cursive;
+	font-size: 3em;
+}
 	
 	
 .menu{
-		margin-top: 50px;
-	}
+	margin-top: 50px;
+}
 	
 .opening_time{
-		text-align: right;
-	}
+	text-align: right;
+}
+
+
+.social_icons_size {
+	width: 7%;
+	height: 35px;
+	margin-top: 5px;
+}
+
+.social_icons_size img{
+	
+	width: 100%;
+}
+
+.social_icons_size img: hover{
+	border: 10px solid red;
+}
+
+
+
+.googleMap{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.ma_bottom{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
 
 
 
@@ -251,7 +284,7 @@ bottom_margin{
 		margin-top: -110px;
 	}
 	
-	.slider h4, p, h3{
+	h3, span{
 		display: none;
 	}
 	
@@ -263,6 +296,21 @@ bottom_margin{
 	.time_title{
 		font-size: 2em;
 	}
+	
+	.chef_img, .image_text{
+		margin-left: -30px;
+	}
+	
+	.social_icons_size{
+		width: 15%;
+		margin-left: 7%;
+	}
+	
+	.footer_top{
+		margin-top: 5%;
+	}
+	
+	
 }
 
 
@@ -277,6 +325,12 @@ bottom_margin{
 	.menu{
 		margin-top: -20px;
 	}
+	
+	.footer_top{
+		margin-top: 5%;
+	}
+	
+	
 	
 }
 
@@ -299,6 +353,8 @@ bottom_margin{
 	.slider{
 		margin-top: -30px;
 	}
+	
+
 }
 
 /* iMac [portrait + landscape] */
