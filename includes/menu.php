@@ -1,6 +1,6 @@
 <div class="navbar navbar-default  navbar-fixed-top col-md-12 col-lg-12 col-sm-12 col-xs-12">
 	<div class="logo"><!-- This the container div start -->	
-		<a href="index.php" class="col-md-2 col-lg-2 col-sm-4 col-xs-5 botm10 col-md-offset-1  top10"><img src="images/logo.png"></a>
+		<a href="index.php" class="col-md-2 col-lg-2 col-sm-4 col-xs-5 botm10 col-md-offset-1  top10"><img src="images/logo.png" alt="Four Oaks Tandoori Logo"></a>
 		<button class="navbar-toggle" data-toggle ="collapse" data-target= ".navHedaerCollapse">	
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>

@@ -14,18 +14,18 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="images/Vegetables-Appealing-Foods-and-Salads.jpg" alt="Vegetables Appealing Foods and Salads">
+		      <img src="images/Slideshow/restaurant_front.jpg" alt="Four Oaks Tandoori Front Picture">
 		      <div class="carousel-caption">
-		        <h3>Appealing</h3>
-		        <span>Vegetables Appealing Foods and Salads</span>
+		        <h3>Four Oaks Tandoori</h3>
+		        <span>Finniest Indian    </span>
 		      </div>
 		    </div>
 		    
 		    <div class="item">
-		      <img src="images/Red-Philippines-Best-Restaurants.jpg" alt="Red Philippines Best Restaurants">
+		      <img src="images/Slideshow/restaurant_front.jpg" alt="Red Philippines Best Restaurants">
 		      <div class="carousel-caption">
-		        <h3>Appealing</h3>
-		        <span>Vegetables Appealing Foods and Salads</span>
+		        <h3>Four Oaks Tandoori</h3>
+		        <span>Re-open under new Management</span>
 		      </div>
 		    </div>
 		    
